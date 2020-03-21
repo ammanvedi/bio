@@ -1,0 +1,7 @@
+{
+  "readVersionCommand": "node -p \"require('./package.json').version\" | tr -d '\n'",
+  "writeVersionCommands": [],
+  "preReleaseStart": [],
+  "postReleaseStart": [],
+  "postReleaseFinish": []
+}
