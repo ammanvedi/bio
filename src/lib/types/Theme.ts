@@ -11,7 +11,12 @@ export type ThemeColors = {
     PrimaryReversed: string;
     SecondaryReversed: string;
     Background: string;
+    BackgroundYellow: string;
     Contour: string;
+
+    AberrationBlue: string;
+    AberrationRed: string;
+    AberrationYellow: string;
 };
 
 // This is the return type from using styled component's css`` format string function

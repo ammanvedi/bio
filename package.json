@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc-watch": "tsc --watch --noEmit",
-    "dev": "tsc --noEmit && parcel src/index.html",
+    "dev": "npm install && tsc --noEmit && parcel src/index.html",
     "postinstall": "rm -r node_modules/@types/react-native"
   },
   "keywords": [],
@@ -19,9 +19,13 @@
     "@types/styled-components": "^5.0.1"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.149",
     "csstype": "^2.6.9",
+    "framer-motion": "^1.10.0",
+    "lodash": "^4.17.15",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.0.1",
+    "styled-normalize": "^8.0.7"
   }
 }
