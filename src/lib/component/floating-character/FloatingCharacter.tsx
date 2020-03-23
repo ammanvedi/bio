@@ -21,8 +21,8 @@ export const FloatingCharacter = ({ children }: FloatingCharacterProps) => (
       fontSize: `${randVal(3, 7)}rem`
     }}
     animate={{
-      opacity: [0, 0.2, 0],
-      scale: [1, randVal(0, 0.5)],
+      opacity: [0, 0.1, 0],
+      scale: [1, randVal(0, 0.2)],
       top: ["90%", "-10%"],
       x: [randVal(0, window.innerWidth), randVal(0, window.innerWidth)],
       rotate: [randVal(0, 360), 0]
