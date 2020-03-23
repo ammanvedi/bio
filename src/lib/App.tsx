@@ -1,6 +1,5 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { AbberatedText } from "~lib/component/abberated-text/AbberatedText";
 import {TitleHero} from "~lib/component/title-hero/TitleHero";
 
 const Container = styled.div`
