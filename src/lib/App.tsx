@@ -1,5 +1,6 @@
 import React from "react";
-import styled, {css} from "styled-components";
+import styled, { css } from "styled-components";
+import {TitleHero} from "~lib/component/title-hero/TitleHero";
 
 const Container = styled.div`
   ${({ theme }) => css`
@@ -9,5 +10,9 @@ const Container = styled.div`
 `;
 
 export const App = () => {
-  return <Container>dadasda</Container>;
+  return (
+      <div>
+        <TitleHero />
+      </div>
+  );
 };
