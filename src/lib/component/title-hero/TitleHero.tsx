@@ -28,6 +28,7 @@ const SubheadingContainer = styled.h2`
 `;
 
 const SubheadingLine = styled.div`
+  
   display: block;
 `;
 
@@ -57,6 +58,11 @@ export const TitleHero = () => {
           <AnimatedHeroText>web developer</AnimatedHeroText>
         </SubheadingLine>
       </SubheadingContainer>
+        <SubheadingContainer>
+            <AnimatedHeroText>
+                Senior developer at Lifeworks, previously of Pulselive.
+            </AnimatedHeroText>
+        </SubheadingContainer>
 
       <FloatingCharacter>{"{"}</FloatingCharacter>
       <FloatingCharacter>{";"}</FloatingCharacter>
