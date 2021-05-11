@@ -27,7 +27,7 @@
     "@types/lodash": "^4.14.149",
     "csstype": "^2.6.9",
     "framer-motion": "^1.10.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "parcel": "^1.12.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
