@@ -28,7 +28,7 @@
     "csstype": "^2.6.9",
     "framer-motion": "^1.10.0",
     "lodash": "^4.17.15",
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.0.1",
